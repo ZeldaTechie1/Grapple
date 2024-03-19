@@ -282,7 +282,7 @@ namespace KinematicCharacterController.Examples
         {
             switch (CurrentCharacterState)
             {
-                case CharacterState.Default:
+                case CharacterState.Default:    
                     {
                         // Ground movement
                         if (Motor.GroundingStatus.IsStableOnGround)
